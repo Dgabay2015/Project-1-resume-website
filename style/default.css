@@ -55,7 +55,16 @@ h2 a:hover{color:#FF9900}
 
 .skill-name{float:left;}
 .skill-rating{font-family: 'Crimson Text', arial, serif; font-size:55px; float:right; border:0px solid red; line-height:1px; padding-top:43px;}
-
+#imageOfMe{
+  display: none;
+}
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
 
 a.hidden, a.hidden:hover, a.hidden:visited, a.hidden:active{text-decoration:none; color:#4D4D4D;}
 
